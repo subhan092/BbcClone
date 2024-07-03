@@ -1,0 +1,865 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+   font-size: 2rem; 
+}
+h5{
+    font-size: 1.4rem;
+}
+h4{
+    font-size: 1.1rem;
+}
+h6{
+    font-size: 1.3rem;
+}
+
+
+/*    DIV S HOVER */
+div > h5:hover{
+    text-decoration: underline;
+}
+div > h3:hover{
+    text-decoration: underline;
+}
+
+div > img:hover{
+    opacity: 0.7;
+}
+
+div:hover{
+    cursor: pointer;
+}
+.navtop{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.5rem ;
+
+}
+.logo-top img{
+       width: 6.7rem;
+       height: 2.4rem;
+}
+.ham-search i{
+      font-size:  2rem;
+       padding: 0 0.5rem;
+}
+
+.signin-btn{ 
+      text-decoration: none;
+      color: black;
+      font-size: 1.2rem;
+      padding: 0.3rem 0.5rem;
+        font-weight: 500;
+     
+}
+.signin-btn:hover{
+    background-color: black;
+    color: white;
+}
+.registor-btn{
+    color: #fff;
+    background-color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    
+}
+.registor-btn:hover{
+    opacity: 0.7;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar li{
+    list-style: none;
+    padding: 0.8rem 0.7rem ;
+}
+.navbar li a{
+    text-decoration: none;
+ 
+}
+
+
+/*      section one */
+.parent-section-1{
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.section-one{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem  ;
+    margin: 1rem auto;
+    width: 98%;
+    border-bottom: 2px solid black;
+    flex-wrap: wrap;
+   
+}
+.col1{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 4rem;
+    order: 1;
+}
+.poli-img img{
+   width: 100%;
+}
+
+
+.col2{
+   width:  45%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    order: 2;
+}
+
+.flight-img img{
+   width: 100%;
+}
+.flight-content h3 , p {
+     padding: 0.5rem;
+}
+
+.col3{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    order: 3;
+
+}
+
+
+
+.sec2-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+.section-two-heading{
+        margin: 0.1rem 4.1rem;
+}
+.section-two{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.section-two-col{
+        width: 45%;
+}
+.sec2-poster{
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: #e9e4e4;
+    border-bottom: 2px solid black;
+    padding: 1rem 0;
+    margin: 5rem 0;
+}
+.sec2-poster img{
+     width: 70vw;
+     height: 40vh;
+}
+.sec2-line{
+    width: 92%;
+    border-bottom: 2px solid black;
+    margin: auto;
+    
+}
+.sectiontwo-img img{
+    max-width: 100%;
+}
+
+
+/*              .........................   section 3 ........................*/
+
+.sec-three{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.sec-three-title{
+      margin: 0.7rem 0;
+      margin-left: 3.2rem;
+}
+.sec-three-content{
+    display: flex;
+    flex-direction: column;
+    
+    align-content: center;
+    gap: 1rem;
+}
+.sec3-three-row-1{
+    order: 1;
+    display: flex;
+    justify-content: center;
+  
+    gap: 1rem;
+    width: 100%;
+}
+.sec3-three-row-1-prt1{
+       width:  20%;
+       align-self: center;
+       order: 1;
+       
+}
+
+.sec3-three-row-1-prt3{
+    order: 3;
+    width:  20%; 
+}
+.sec3-three-row-1-prt3 img{
+    width: 100%;
+}
+
+.sec3-three-row-1-prt2-img  {
+    width:  50%;
+    order: 2;
+    
+}
+.sec3-three-row-1-prt2-img  img{
+    width: 100%;
+}
+
+.sec3-three-row-2{
+    order: 2;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 100%;
+  
+}
+.sec3-three-row-2-prt1{
+  display: flex;
+  
+ width: 75%;
+ justify-content: space-evenly;
+  flex-wrap: wrap;
+
+
+}
+
+.sec3-three-row-2-prt1-c{
+
+  width:  25%;
+  
+
+}
+.sec3-three-row-2-prt1-c img{
+  width: 100%;
+}
+
+.sec3-three-row-2-prt2{
+        width: 25% ;
+        display: flex;
+        flex-direction: column;
+        
+        
+}
+.sec3-three-row-2-prt2-c{
+    width: 100%;
+}
+
+
+/* .................................................SEC FOUR .................................... */
+
+.sec-four{
+  color: #fff;
+  background-color: #222;
+
+   display: flex;
+   flex-direction: column;
+   gap: 3rem;
+
+}
+.sec-four-vedios{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.5rem 2rem;
+  border-top: 2px solid #fff;
+
+}
+.sec-four-vedio-col{
+    min-width: 25%;
+    margin-top: 3rem;
+}
+.sec-four-vedio-col img{
+  max-width: 100%;
+}
+.sec-four-heading{
+  position: absolute;
+  left: 0;
+  top: 0;
+  
+}
+
+
+/* ...............................sec5........................ */
+
+.sec5{
+    background-color: #e9e4e4;
+    display: flex;
+     justify-content: center;
+      margin: 2rem 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+
+}
+
+.sec5-person-img{
+        width: 25%;
+        margin: 1rem 0;
+        
+         
+}
+.sec5-person-img img{
+        width:  100%;
+}
+
+.sec5-person-img-content{
+    
+    background-color: #eeeeeee1;
+}
+
+
+/* .....................................sec6................................................ */
+.sec6{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   
+   margin: 1rem 0;
+   justify-content: center;
+   border-top: 2px solid black;
+   border-bottom: 2px solid black;
+   
+   width: 100%;
+}
+.sec6-content{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     width: 98%;
+     gap: 2rem   ;
+     
+     margin-bottom: 2rem;
+     
+     
+     
+}
+.sec6-img{
+    width: 63%;
+}
+.sec6-img img{
+    width: 100%;
+}
+.sec6-block{
+       width:  27%;
+       
+}
+
+.sec6-heading{
+    margin: 0.7rem 0;
+    margin-left: 3.8rem;
+}
+
+#btn{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 0.2rem 0.4rem;
+      font-weight: 500;
+      border: 2px solid black; 
+      outline: none;
+      cursor: pointer;
+      background: none;
+}
+#btn:hover{
+    color: white;
+    background-color: black;
+    opacity: 0.9;
+    font-weight: 600;
+}
+      /*          .......................sec6 part2............................. */
+.sec6-prt2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    width: 100%;
+}
+.sec6-prt2-content{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+   
+}
+.sec6-prt2-content-block{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem ;
+    width: 20.5%;
+    border-bottom: 2px solid black;
+    
+}
+.sec6-prt2-content-block h6{
+    padding: 0.5rem 0;
+}
+.sec6-prt2-heading{
+    margin: 0.7rem 0;
+    margin-left: 3.6rem;
+}
+
+/* ......................................sec 7..................................... */
+.sec7{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+      gap: 1rem;
+    margin: 0.7rem  3rem; 
+
+      
+}
+.sec7-row1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+.sec7-row1-block{
+    width: 24%;
+}
+.sec7-row1-block h4 , h5{
+     padding: 0.6rem 0;
+   
+}
+
+.sec7-row2{
+    display: flex;
+    gap: 2rem ;
+    width: 100%;
+
+}
+.sec7-row2-block{
+    width: 24%;
+}
+.sec7-row2-block img{
+    width: 100%;
+}
+
+
+/* ..................sec8........................... */
+
+.sec8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    gap: 2rem  ;
+    width: 100%;
+    
+}
+.sec8-img{
+    width: 63%;
+}
+.sec8-img img{
+    width: 100%;
+}
+.sec8-block{
+    width: 30%;
+}
+.sec8-block h3 , p{
+    padding: 1rem 0;
+}
+#btn2{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.2rem 0.4rem;
+      font-weight: 500;
+      border: 2px solid #fff; 
+      outline: none;
+      cursor: pointer;
+      background: none;
+}
+#btn2:hover{
+    color: black;
+    background-color: #fff;
+    opacity: 0.9;
+    font-weight: 600;
+}
+
+
+/*  ......................sec7 is same as sec 9.................... */
+.sec9{
+    margin-top: 2rem  ;
+    border-bottom: 2px solid black;
+}
+.sec9-block{
+    border-top: 2px solid black;
+}
+
+
+/* ...................................sec6 and sec10 are same .................................. */
+.sec10{
+    border-top: none;
+    border-bottom: none;
+}
+.sec10-content{
+    flex-direction: row-reverse;
+
+}
+
+
+/* ......................................................sec4 and sec11 are same ........................... */
+.sec11{
+    background: none;
+    color: black;
+     
+}
+
+.sec11-content{
+    border-top: 2px solid black;
+
+}
+.sec11-heading h4{
+    padding: 1rem 0;
+}
+.sec11-block{
+    width: 43%;
+}
+.sec11-block img{
+   width: 100%;
+}
+
+
+/* ..........................................footer............................... */
+
+.footer{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 1.4rem ;
+    border-top: 1px solid black;
+}
+.ftr-prt1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.nav-bottom{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.nav-bottom li{
+    list-style: none;
+    padding-left: 1rem;
+}
+.nav-bottom li:first-child{
+    padding: 0;
+}
+.nav-bottom li:last-child{
+    padding-left: 0;
+}
+.ftr-prt1 h6{
+    background-color: #D2D4D6;
+    padding: 0.3rem 0.4rem;
+    width: fit-content;
+}
+
+/*      .......................ftr paart 2...................................... */
+.ftr-prt2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.social-icons{
+    display: flex;
+}
+.social-icons i{
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+}
+.social-icons i:nth-child(1){
+    padding-left: 0;
+}
+.terms1{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+.terms1 a{
+    text-decoration: none;
+    color: black;
+    
+}
+.terms1 a:first-child{
+    
+     justify-self: flex-start;
+}
+
+.terms2{
+    display: flex;
+}
+
+
+@media screen and (max-width: 960px) {
+    .sec2-poster{
+        display: none;
+    }
+
+    .sec7-row1{
+       
+        width: 100%;
+    }
+    .sec7-row1-block{
+        width: 48%;
+    }
+    .sec7-row2{
+     width: 100%;
+     flex-wrap: wrap;
+    }
+    .sec7-row2-block{
+        width: 45%;
+    }
+    .sec8{
+        flex-direction: column;
+    }
+    .sec8-img{
+        width: 97%;
+    }
+    .sec8-img img{
+        width: 100%;
+    }
+    .sec8-block{
+        width: 100%;
+    }
+}
+
+/*      ............. .................  for Tablets .................... */
+@media  screen and   (max-width: 800px ) {
+
+   
+    .navbar{
+        display: none;
+    }
+   .logo-top img{
+        justify-content: center;
+   }
+   .section-one{
+    width: 100%;
+   }
+   .col3{
+    flex-direction: row;
+    align-content: space-evenly;
+     width: 100%;
+     gap: 0.5rem;
+     flex-wrap: wrap;
+     justify-content: center;
+     
+   }
+   .col3 div{
+         width: 40%;
+       justify-content: center;
+    
+   }
+   .col2{
+    width: 70%;
+
+   }
+   .col1{
+      order: 1;
+   }
+   
+   .sec3-three-row-1{
+      flex-wrap: wrap;
+   }
+
+   
+   .sec3-three-row-1-prt2-img{
+    order: 1;
+    width: 100%;
+   }
+   .sec3-three-row-1-prt1{
+    order: 2;
+    width: 100%;
+   }
+   .sec3-three-row-1-prt3{
+      
+    
+    width: 50%;
+
+   }
+    .sec3-three-row-2{
+        
+        flex-wrap: wrap;
+    }
+    .sec3-three-row-2-prt1{
+         
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .sec3-three-row-2-prt1-c{
+          width: 50%;
+    }
+    .sec3-three-row-2-prt2{
+         width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .sec3-three-row-2-prt2-c{
+        width: 100%;
+    }
+     .sec-four-vedios{
+        flex-shrink: 5;
+
+     }
+    .sec-four-vedio-col{
+        width: 33%;
+    }
+     .sec-four-col4{
+        display: none;
+    }
+
+    
+    .sec5-person-img{
+        width: 50%;
+    }
+    
+    .sec5-person-img img{
+             width: 100%;
+    }
+    .sec6-content{
+        flex-direction: column;
+    }
+    .sec6-heading{
+        margin-left: 1rem;
+    }
+    .sec6-img{
+        width: 95%;
+    }
+    .sec6-img img{
+        width: 100%;
+    }
+    .sec6-block{
+        
+        width: 100%;
+    }
+    .sec6-prt2-content{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .sec6-prt2-content-block{
+           width: 43%;
+    }
+
+    .sec11-content{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .sec11-block{
+        width: 48%;
+    }
+    .nav-bottom li {
+        padding-top: 2rem 0;
+    }
+   
+}
+
+
+/* ...................................for mobile ..................... */
+
+@media  screen  and    (max-width: 600px ){
+           .col1{
+               width: 100%;
+               height: 40%;
+               order: 2;
+               gap: 0.2rem;
+               
+              
+           }
+           .col2{
+            order: 1;
+            width: 100%;
+            
+           }
+           .col1-card{
+            display: flex;
+             gap: 0.4rem;
+            justify-content: center;
+        
+             width: fit-content;
+           }
+          
+           
+           .poli-img img{
+            width: 100%;
+            height: 100%;
+           }
+
+           
+           
+           .content-col1 p{
+              display: none;
+              
+           }
+
+           .col3{
+            flex-direction: column;
+            width: 100%;
+           }
+
+           .col3 div{
+            width: 100%;
+           }
+         
+            .section-two{
+                flex-direction: column;
+            }
+
+            .section-two-col{
+                width: 100%;
+                align-items: center;
+            }
+
+            .section-two-heading{
+                margin: 0.1rem 1.1rem;
+            }
+
+            .sec-four-vedio-col{
+                width: 50%;
+            }
+            .sec-four-col3 , .sec-four-col4{
+                display: none;
+            }
+
+           
+}
